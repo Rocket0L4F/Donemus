@@ -1,0 +1,124 @@
+/* Switch off unneeded fields */
+
+.mec-fes-list ul li .mec-fes-event-remove,
+.mec-fes-list ul li .mec-fes-event-export,
+.mce-first,
+#mec-event-links,
+#mec-event-cost,
+#mec-hourly-schedule,
+#mec-organizer,
+#mec-schema,
+#mec_meta_box_date_form .mec-title:nth-of-type(3),
+#mec_meta_box_date_form .mec-form-row:nth-of-type(4),
+#mec_meta_box_date_form .mec-form-row:nth-of-type(5),
+#mec_meta_box_date_form .mec-form-row:nth-of-type(6),
+#mec_meta_box_date_form .mec-form-row:nth-of-type(7),
+#mec_meta_box_date_form .mec-form-row:nth-of-type(8),
+#mec_meta_box_date_form h4:nth-of-type(1),
+#mec_meta_box_date_form .mec-form-row:nth-of-type(9),
+#mec_meta_box_repeat_form,
+#mec-location .mec-form-row:nth-of-type(3),
+#mec-location .mec-form-row:nth-of-type(4),
+#mec-location .mec-form-row:nth-of-type(5),
+#mec-location h4:nth-of-type(2),
+.mec-fes-form .wp-editor-tabs,
+.mec-fes-form .quicktags-toolbar,
+.mec-fes-form .wp-editor-tools .wp-media-buttons{
+	display: none;
+}
+
+/* form padding */
+.mec-fes-form, 
+.mec-fes-list {
+	padding: 0;
+}
+
+
+.mec-fes-form label {
+	font-size: var(--text-s);
+	color: var(--shade-dark);
+	font-weight: 700;
+}
+
+.mec-fes-form .mec-meta-box-fields {
+	box-shadow:
+	  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+	  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+	  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+	  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+	  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+	  100px 100px 80px rgba(0, 0, 0, 0.07)
+	;
+	border-radius: var(--space-xs);
+	padding: 0 40px 40px;
+}
+#mec-date-time {
+	margin-top:var(--space-m);
+}
+
+/* form left column */
+@media only screen and (min-width: 961px) {
+	.mec-fes-form .mec-fes-form-cntt {
+		max-width: 100%;
+	}
+}
+
+
+.mec-fes-form, .mec-fes-list {
+	background: transparent;
+}
+
+.mec-fes-form .mec-meta-box-fields {
+	border: none;
+}
+
+#mec_fes_form, .mec-fes-form-top-actions {
+	max-width: 100%;
+}
+
+.mec-fes-form .mec-meta-box-fields h4 {
+	font-family: 'Raleigh'; /*'UniversLTStd';*/
+	color: var(--primary);
+	background: transparent; /*var(--shade-ultra-light);*/
+	font-size: var(--text-l);
+	padding-top: var(--space-m);
+	margin-bottom: 0;
+}
+
+.mec-fes-form #mec-event-data input[type=date], 
+.mec-fes-form input[type=email], 
+.mec-fes-form input[type=number], 
+.mec-fes-form input[type=password], 
+.mec-fes-form input[type=tel], 
+.mec-fes-form input[type=text], 
+.mec-fes-form input[type=url], 
+.mec-fes-form select, 
+.mec-fes-form textarea {
+	border: 1px solid var(--shade-light);
+	max-width: none;
+}
+
+#mec-event-links .mec-form-row:first-of-type,
+.mec-fes-form .wp-editor-tabs,
+.mec-fes-form .quicktags-toolbar,
+.mec-fes-form .wp-editor-tools .wp-media-buttons{
+	display: none;
+}
+
+.mec-fes-form .quicktags-toolbar, .mec-fes-form div.mce-toolbar-grp {
+	background: transparent;
+}
+
+.mec-fes-form button[type=submit].mec-fes-sub-button,
+#mec_bfixed_form_fields input[type=checkbox]:checked, 
+#mec_bfixed_form_fields input[type=radio]:checked, 
+#mec_reg_form_fields input[type=checkbox]:checked, 
+#mec_reg_form_fields input[type=radio]:checked, .mec-fes-form .mec-form-row input[type=checkbox]:checked, 
+.mec-fes-form .mec-form-row input[type=radio]:checked {
+	border-color: var(--primary);
+	background: var(--primary)!important;
+}
+.mec-fes-form input[type=file] {
+	color: var(--primary);
+	border: 2px dashed var(--primary);
+}

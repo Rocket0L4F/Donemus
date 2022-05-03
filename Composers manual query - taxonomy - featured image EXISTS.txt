@@ -1,0 +1,1 @@
+post_type=composer&orderby=rand&tax_query%5B0%5D%5Btaxonomy%5D=attribute&tax_query%5B0%5D%5Bfield%5D=slug&tax_query%5B0%5D%5Bterms%5D=early&meta_query%5B0%5D%5Bkey%5D=_thumbnail_id&meta_query%5B0%5D%5Bcompare%5D=EXISTS&posts_per_page=9

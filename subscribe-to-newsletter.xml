@@ -1,0 +1,33 @@
+<xmlrequest>
+	<username>DonemusPublishing</username>
+	<usertoken>6da41be37d3e2c6a95101ec61ac63434e3b59e66</usertoken>
+	<requesttype>subscribers</requesttype>
+	<requestmethod>AddSubscriberToList</requestmethod>
+	<details>
+		<mailinglist>Donemus Publishing</mailinglist>
+		<contact>
+			<emailaddress>email@mailcamp.nl</emailaddress>
+			<format>html</format>
+			<confirmed>yes</confirmed>
+			<ipaddress>46.145.42.57</ipaddress>
+			<subscribedate>1483228800</subscribedate>
+			<add_to_autoresponders>false</add_to_autoresponders>
+			<customfields>
+				<item>
+					<fieldid>99</fieldid>
+					<value>Jasper Reijn</value>
+				</item>
+				<item>
+					<fieldid>99</fieldid>
+					<value><![CDATA[Eten %26 Drinken]]></value>
+					<value><![CDATA[Sport]]></value>
+					<value>Jasper Reijn</value>
+				</item>
+				<item>
+					<fieldid>99</fieldid>
+					<value>31/01/1980</value>
+				</item>
+			</customfields>
+		</contact>
+	</details>
+</xmlrequest>

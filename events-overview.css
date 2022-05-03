@@ -1,0 +1,123 @@
+.heading-block {
+    text-align: center;
+    background-color: white;
+    margin-right: 4%;
+    width: 92%;
+    margin-top: var(--space-l);
+    padding-top: var(--space-xs);
+    padding-bottom: var(--space-xs);
+    align-items: center;
+    margin-bottom: var(--space-l);
+    margin-left: 4%;
+}
+
+.event-container-grid {
+    width: 100%;
+    display: grid;
+    align-items: stretch;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-column-gap: 0px;
+    grid-row-gap: 0;
+    margin-bottom: var(--space-xs);
+}
+
+.event-grid-left {
+    width: 88%;
+    margin-left: 12%;
+}
+
+.oxy-post-image-fixed-ratio-66 {
+    width: 100%;
+    /*padding-bottom: 100%;*/
+    /*66.666%;*/
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.event-grid-left,
+.event-grid-middle,
+.event-grid-right {
+    background: white;
+    height: 100%;
+}
+
+.oxy-post-content p {
+    margin-top: var(--space-m);
+}
+
+.event-date {
+    /*text-transform: uppercase;*/
+}
+
+.btn--read-more {
+    cursor: pointer;
+    transition: 0.4s;
+    margin-top: auto;
+    width: 100%
+}
+
+.profile-link {
+    padding-top: var(--space-m);
+}
+
+.event-grid-right {
+    width: 88%;
+}
+
+.mec-single-event-location {
+    background: white;
+    padding: 0;
+}
+
+.mec-sl-location-pin,
+.mec-location,
+.mec-img-location {
+    display: none;
+}
+
+dd {
+    margin-inline-start: 0;
+}
+
+.mec-address {
+    font-size: var(--text-m);
+}
+
+
+#past-event-container-grid .event-grid-left,
+#past-event-container-grid .event-grid-middle,
+#past-event-container-grid .event-grid-right {
+    padding-left: var(--space-l);
+    padding-right: var(--space-l);
+    padding-top: var(--space-s);
+    padding-bottom: var(--space-s);
+}
+
+/* responsive */
+@media (max-width: 991px) {
+    .event-container-grid {
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+    }
+
+    .event-grid-left {
+        width: 100%;
+        margin-left: 0;
+        border: 0;
+        border-top: 1px solid var(--grid-border-color-dark);
+    }
+
+    .event-grid-middle {
+        border-right: 0;
+        border-bottom: 0;
+    }
+
+    .event-grid-right {
+        width: 100%;
+        border-right: 0;
+    }
+
+    .oxy-post-image-fixed-ratio-66 {
+        height: 50vw;
+    }
+}

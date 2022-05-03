@@ -1,0 +1,68 @@
+/*.related-heading {
+	background: rgba(255,255,255, 0.05);
+}*/
+
+.related-post:first-child {
+	margin-top: var(--space-l);
+}
+
+.related-post {
+	margin-bottom: var(--space-xs); /*2rem;*/ /*var(--space-l);*/
+	/*background: rgba(0,0,0, 0.1);*/
+}
+
+.related-post-padding {
+	overflow: hidden;
+	position: relative;
+	margin: var(--space-l);
+}
+
+.related-post-image {
+	transition: 0.4s ease-out all;
+	position: relative;
+	background-color: color(1);
+	width: 100%;
+}
+
+.related-post-image-fixed-ratio {
+	padding-bottom: 100%; /*66.666%;*/
+	background-size: cover;
+	background-position: center center;
+	overflow: hidden;
+}
+
+.related-post-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	padding: var(--space-m);
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-end;
+	flex-direction: column;
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 33%, rgba(0,0,0,1) 100%);
+}
+
+.related-post:hover .related-post-image {
+	transform: scale(1.1);
+}
+
+.related-text {
+	height: 100%;
+	color: var(--shade-light);
+	padding-left: var(--space-l);
+    padding-right: var(--space-l);
+    padding-top: var(--space-l);
+    padding-bottom: var(--space-l);
+	display: flex;
+	flex-direction: column;
+}
+
+.related-profile-link {
+}
+.related-post-link-btn {
+	margin-top: auto; /*var(--space-xl);*/
+	width: 100%;
+}
